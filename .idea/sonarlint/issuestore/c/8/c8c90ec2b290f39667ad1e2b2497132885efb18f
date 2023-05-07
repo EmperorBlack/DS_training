@@ -1,0 +1,18 @@
+
+^
+java:S6208"CMerge the previous cases into this one using comma-separated label.(É÷þ¾þÿÿÿÿ
+W
+java:S4973A"<Strings and Boxed types should be compared using "equals()".(óÙ ›ùÿÿÿÿ
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒýÿÿÿÿ
+k
+java:S1149:"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒýÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(íÿˆÏ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÿŸ¨ýÿÿÿÿ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(¤óõ˜
+<	java:S131""Add a default case to this switch.(îÇËúÿÿÿÿ
+W
+java:S1126+"AReplace this if-then-else statement by a single return statement.(«ÂÁÙ
+W
+java:S1126H"AReplace this if-then-else statement by a single return statement.(«ÂÁÙ

@@ -1,0 +1,21 @@
+
+E
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ëŸ…»
+E
+java:S1197
+"*Move the array designators [] to the type.(¬·ì½ûÿÿÿÿ
+:
+java:S1659"Declare "j" on a separate line.(Ë™ëûÿÿÿÿ
+<
+java:S1168"&Return an empty array instead of null.(¥¹ï
+@
+java:S1197"*Move the array designators [] to the type.(úƒ¿ú
+<
+java:S1168!"&Return an empty array instead of null.(¥¹ï
+E
+java:S1197$"*Move the array designators [] to the type.(§áŒòùÿÿÿÿ
+<
+java:S1168+"&Return an empty array instead of null.(¥¹ï
+@
+java:S1197."*Move the array designators [] to the type.(¨Ù·À

@@ -1,0 +1,19 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¡È¡­
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¦©÷øÿÿÿÿ
+f
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(·Õ¢³
+M	java:S106"9Replace this use of System.out or System.err by a logger.(Ô§±c
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(×ƒı
+T
+java:S1854"9Remove this useless assignment to local variable "index".(¸’øÿÿÿÿ
+@
+java:S1197"*Move the array designators [] to the type.(×ƒı
+N	java:S106<"9Replace this use of System.out or System.err by a logger.(«‡æÇ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(—›¯¿ùÿÿÿÿ
+I
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ

@@ -1,0 +1,21 @@
+
+E
+java:S1197"*Move the array designators [] to the type.(¡þÏÖøÿÿÿÿ
+B
+java:S1197",Move the array designators [][] to the type.(¾¦á«
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ÇÁ»»
+B
+java:S1197",Move the array designators [][] to the type.(ÇÁ»»
+W
+java:S1659)"ADeclare "rows" and all following declarations on a separate line.(òù¯å
+Q	java:S125"<This block of commented-out lines of code should be removed.(™å˜
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ð‰†™
+Q	java:S125"<This block of commented-out lines of code should be removed.(™å˜
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ð‰†™
+Q	java:S125"<This block of commented-out lines of code should be removed.(™å˜
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ð‰†™
+S	java:S106;"9Replace this use of System.out or System.err by a logger.(úº‘žüÿÿÿÿ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ

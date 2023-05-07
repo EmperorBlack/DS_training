@@ -1,0 +1,42 @@
+
+`
+java:S2259í"IA "NullPointerException" could be thrown; "realPointer" is nullable here.(ÃÎ‘–
+Y
+java:S2259Æ"BA "NullPointerException" could be thrown; "slow" is nullable here.(ÕÄÌ¶
+˜
+java:S1186´"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(õ‡›
+S	java:S106"9Replace this use of System.out or System.err by a logger.(·üâ’üÿÿÿÿ
+B
+java:S1172J",Remove this unused method parameter "value".(åæÑå
+W	java:S125œ"<This block of commented-out lines of code should be removed.(ˆÂâ«üÿÿÿÿ
+R	java:S125¸"<This block of commented-out lines of code should be removed.(Çü‚
+T	java:S106ä"9Replace this use of System.out or System.err by a logger.(÷¸Ô“ıÿÿÿÿ
+O	java:S106í"9Replace this use of System.out or System.err by a logger.(ÃÎ‘–
+i
+java:S3776ñ"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(˜Ú˜¡
+i
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(›©¢
+R	java:S125Ğ"<This block of commented-out lines of code should be removed.(ö£å³
+H
+java:S1481‚",Remove this unused "newHead" local variable.(ùÎëÀşÿÿÿÿ
+U
+java:S1117¢"9Rename "count" which hides the field declared at line 19.(šüñÔøÿÿÿÿ
+R	java:S125Á"<This block of commented-out lines of code should be removed.(®û¹§
+T	java:S106Ç"9Replace this use of System.out or System.err by a logger.(Œù†şÿÿÿÿ
+O	java:S106È"9Replace this use of System.out or System.err by a logger.(ä¸üÁ
+R	java:S125É"<This block of commented-out lines of code should be removed.(Èú¿©
+T	java:S106Ï"9Replace this use of System.out or System.err by a logger.(­ôø”ùÿÿÿÿ
+N	java:S106Ò"9Replace this use of System.out or System.err by a logger.(âÖÜ
+T	java:S106Ó"9Replace this use of System.out or System.err by a logger.(˜íöËıÿÿÿÿ
+O	java:S106Ü"9Replace this use of System.out or System.err by a logger.(ëŠØÆ
+Q	java:S125Û"<This block of commented-out lines of code should be removed.(àÖ¶>
+T	java:S106ß"9Replace this use of System.out or System.err by a logger.(®è‚Üıÿÿÿÿ
+T	java:S106ê"9Replace this use of System.out or System.err by a logger.(ñ¹ƒÑúÿÿÿÿ
+O	java:S106î"9Replace this use of System.out or System.err by a logger.( æöß
+T	java:S106ø"9Replace this use of System.out or System.err by a logger.(ÄÑ¯Çüÿÿÿÿ
+R	java:S125ı"<This block of commented-out lines of code should be removed.(¸´…¦
+W	java:S125ÿ"<This block of commented-out lines of code should be removed.(¥­ƒ†şÿÿÿÿ
+C
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX
+E
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ

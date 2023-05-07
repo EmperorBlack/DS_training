@@ -1,0 +1,10 @@
+
+o
+java:S2293."YReplace the type specification in this constructor call with the diamond operator ("<>").(ÒèñÑ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İ‘ÿ´
+W
+java:S2259X"AA "NullPointerException" could be thrown; "old" is nullable here.(àß¤¾
+Q
+java:S1854)";Remove this useless assignment to local variable "newNode".(ÛşÚÀ
+B
+java:S1481)",Remove this unused "newNode" local variable.(ÛşÚÀ

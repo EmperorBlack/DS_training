@@ -1,0 +1,11 @@
+
+0
+java:S1220""Move this file to a named package.
+E
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ƒÑø•
+V	java:S125"<This block of commented-out lines of code should be removed.(Ì’¥Âûÿÿÿÿ
+S	java:S106
+"9Replace this use of System.out or System.err by a logger.(ó¦‰ºúÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ò¡›‚şÿÿÿÿ
+V	java:S125%"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ

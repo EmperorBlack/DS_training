@@ -1,0 +1,21 @@
+
+n	java:S1352"YReduce the total number of break and continue statements in this loop to use at most one.(»”›Ù
+E
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+N	java:S106	"9Replace this use of System.out or System.err by a logger.(ø¬ÈÓ
+@
+java:S1197"*Move the array designators [] to the type.(ø‹À­
+<
+java:S1168"&Return an empty array instead of null.(¥¹ï
+1
+java:S3626>"Remove this redundant jump.(ÉŠ©ƒ
+6
+java:S16591" Declare "hi" on a separate line.(ÍÌº
+@
+java:S1197""*Move the array designators [] to the type.(àğÈ±
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(Òãøÿÿÿÿ
+E
+java:S1197,"*Move the array designators [] to the type.(¤Œâìıÿÿÿÿ
+E
+java:S1197/"*Move the array designators [] to the type.(·ìÌ¡ùÿÿÿÿ
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(Áú¬Ûüÿÿÿÿ
