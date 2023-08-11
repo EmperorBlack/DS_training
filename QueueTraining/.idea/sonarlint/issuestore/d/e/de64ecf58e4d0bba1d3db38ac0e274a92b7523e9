@@ -1,0 +1,20 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“ˆËıÿÿÿÿ
+^
+java:S2259)"CA "NullPointerException" could be thrown; "front" is nullable here.(úŸûÿÿÿÿ
+\
+java:S1126w"AReplace this if-then-else statement by a single return statement.(³Æçÿÿÿÿÿ
+W
+java:S1126"AReplace this if-then-else statement by a single return statement.(ÇœŠ
+T	java:S106‘"9Replace this use of System.out or System.err by a logger.(ì­÷“ÿÿÿÿÿ
+R	java:S125"<This block of commented-out lines of code should be removed.(Ù©ĞÂ
+O	java:S106’"9Replace this use of System.out or System.err by a logger.(€Ö©ô
+O	java:S106“"9Replace this use of System.out or System.err by a logger.(‰Û¢
+T	java:S106”"9Replace this use of System.out or System.err by a logger.(Æ®¿®úÿÿÿÿ
+O	java:S106•"9Replace this use of System.out or System.err by a logger.(µ’½Ì
+T	java:S106–"9Replace this use of System.out or System.err by a logger.(¼óÈ¯ÿÿÿÿÿ
+T	java:S106—"9Replace this use of System.out or System.err by a logger.(Ñ‚Èğøÿÿÿÿ
+O	java:S106˜"9Replace this use of System.out or System.err by a logger.(«öÄ
+T	java:S106™"9Replace this use of System.out or System.err by a logger.(Ó‘ÖËüÿÿÿÿ
+T	java:S106š"9Replace this use of System.out or System.err by a logger.(‹£±ßùÿÿÿÿ
+O	java:S106›"9Replace this use of System.out or System.err by a logger.(‰Û¢

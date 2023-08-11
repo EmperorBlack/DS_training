@@ -1,0 +1,7 @@
+
+E
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Şü«ùÿÿÿÿ
+R
+java:S1994"<Move the update of "reverse" into this loop's update clause.(Ï˜‘
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ö‰´«

@@ -1,0 +1,14 @@
+
+s	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(Ê±øÎıÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ş¼±Ïùÿÿÿÿ
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ƒÿƒ—ùÿÿÿÿ
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(£¢¹åÿÿÿÿÿ
+N	java:S106
+"9Replace this use of System.out or System.err by a logger.(Œ†…
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¼ìÏ¯
+@
+java:S1197"*Move the array designators [] to the type.(Ğñ¢•
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(²ÄÓ«ıÿÿÿÿ

@@ -1,0 +1,13 @@
+
+Q	java:S125	"<This block of commented-out lines of code should be removed.(Çé‚Õ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ç’¤™
+M
+java:S1854"8Remove this useless assignment to local variable "curr".(—Èþ
+F
+java:S1172"+Remove this unused method parameter "nums".(³ƒÜôøÿÿÿÿ
+>
+java:S1481")Remove this unused "curr" local variable.(—Èþ
+?
+java:S5413%")Verify that "remove()" is used correctly.(÷ä£Ô
+J
+java:S1128"4Remove this unused import 'java.util.stream.Stream'.(ó÷Ž”

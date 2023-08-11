@@ -1,0 +1,8 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(áâ­
+V
+java:S1854";Remove this useless assignment to local variable "newHead".(Úòã™úÿÿÿÿ
+G
+java:S1481",Remove this unused "newHead" local variable.(Úòã™úÿÿÿÿ
+;
+java:S1128"%Remove this unused import 'java.awt'.(ï´µ©

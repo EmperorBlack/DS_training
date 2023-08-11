@@ -2,7 +2,7 @@
 E
 java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
 S	java:S106"9Replace this use of System.out or System.err by a logger.(Û—á¢øÿÿÿÿ
-h
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(¥ÂáÅ
-\
-java:S1126!"AReplace this if-then-else statement by a single return statement.(ğ€Âıÿÿÿÿ
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(¥ÂáÅ8é…öä˜1
+c
+java:S1126!"AReplace this if-then-else statement by a single return statement.(ğ€Âıÿÿÿÿ8é…öä˜1

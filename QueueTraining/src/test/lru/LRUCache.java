@@ -51,15 +51,22 @@ class LRU{
 public class LRUCache {
 
     public static void main(String[] args) {
-        LRU cache = new LRU(2);
-        System.out.println(cache.put(1,1));
-        System.out.println(cache.put(2,2));
-        System.out.println(cache.get(1));
-        System.out.println(cache.put(3,3));
-        System.out.println(cache.get(2));
-        System.out.println(cache.put(4,4));
-        System.out.println(cache.get(1));
-        System.out.println(cache.get(3));
-        System.out.println(cache.get(4));
+
+        LinkedHashSet<Integer> innn = new LinkedHashSet<>();
+        innn.add(1);
+        innn.add(2);
+        innn.add(3);
+        innn.add(4);
+         int i = innn.iterator().next();
+//        LRU cache = new LRU(2);
+//        System.out.println(cache.put(1,1));
+//        System.out.println(cache.put(2,2));
+//        System.out.println(cache.get(1));
+//        System.out.println(cache.put(3,3));
+//        System.out.println(cache.get(2));
+//        System.out.println(cache.put(4,4));
+//        System.out.println(cache.get(1));
+//        System.out.println(cache.get(3));
+//        System.out.println(cache.get(4));
     }
 }

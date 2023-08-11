@@ -1,0 +1,20 @@
+
+D
+java:S1066i"/Merge this if statement with the enclosing one.(ùö
+D
+java:S1066y"/Merge this if statement with the enclosing one.(ùö
+k	java:S117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í¯Ï»üÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äÛ³µúÿÿÿÿ
+y
+java:S4144r"^Update this method so that its implementation is not identical to "findMaximumXOR" on line 98.(Ì‚¶§úÿÿÿÿ
+M	java:S106I"9Replace this use of System.out or System.err by a logger.(¤I
+V	java:S125G"<This block of commented-out lines of code should be removed.(‡˜äÀÿÿÿÿÿ
+C
+java:S1172M"(Remove this unused method parameter "A".(Í¯Ï»üÿÿÿÿ
+S	java:S106^"9Replace this use of System.out or System.err by a logger.(¾ùôŒùÿÿÿÿ
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¬íóø—1
+Z
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8¬íóø—1
+Q
+java:S1128"4Remove this unused import 'java.util.stream.Stream'.(ó÷”8¬íóø—1

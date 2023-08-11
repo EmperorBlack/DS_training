@@ -1,0 +1,29 @@
+
+s	java:S135 "YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
+s
+java:S1488Å"\Immediately return this expression instead of assigning it to the temporary variable "temp".(¿Æ¨Ô
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Õù»Ëùÿÿÿÿ
+_
+java:S2259¶"CA "NullPointerException" could be thrown; "third" is nullable here.(ôùÛ‡ÿÿÿÿÿ
+g
+java:S1149ı"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ŠÈİà
+l
+java:S1149µ"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(”±ğÜûÿÿÿÿ
+g
+java:S1149¶"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Şüü
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ïøæª
+V	java:S125"<This block of commented-out lines of code should be removed.(’åÙ×üÿÿÿÿ
+P	java:S125"<This block of commented-out lines of code should be removed.(¯µê$
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ò»²š
+8
+java:S1116²"Remove this empty statement.(Åñ­õşÿÿÿÿ
+8
+java:S1116·"Remove this empty statement.(Åñ­õşÿÿÿÿ
+T	java:S106Ñ"9Replace this use of System.out or System.err by a logger.(±¹£Õÿÿÿÿÿ
+R	java:S125â"<This block of commented-out lines of code should be removed.(¡Õ±š
+g
+java:S1149ı"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ŠÈİà
+l
+java:S1149µ"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(”±ğÜûÿÿÿÿ
+g
+java:S1149¶"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Şüü

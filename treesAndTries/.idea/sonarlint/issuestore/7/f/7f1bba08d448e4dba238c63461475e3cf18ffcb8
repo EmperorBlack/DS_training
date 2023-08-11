@@ -1,0 +1,8 @@
+
+]
+java:S1192k"GDefine a constant instead of duplicating this literal "banana" 3 times.(ıó‘Š
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ö°–Ûøÿÿÿÿ
+S	java:S106m"9Replace this use of System.out or System.err by a logger.(ŠäĞ¦ùÿÿÿÿ
+S	java:S106n"9Replace this use of System.out or System.err by a logger.(ÆêÇúÿÿÿÿ
+M	java:S106s"9Replace this use of System.out or System.err by a logger.(”¸Ì
+N	java:S106t"9Replace this use of System.out or System.err by a logger.(ä÷ç

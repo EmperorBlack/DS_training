@@ -1,0 +1,13 @@
+
+E
+java:S1197"*Move the array designators [] to the type.(Ñ°À÷ýÿÿÿÿ
+U
+java:S1854?"8Remove this useless assignment to local variable "size".(ÓµÓ¬8Øñõæ„1
+1
+java:S36260"Remove this redundant jump.(ûÁÝ…
+N
+java:S1117,"8Rename "size" which hides the field declared at line 16.(„Ôžø
+N
+java:S1117F"8Rename "size" which hides the field declared at line 16.(„Ôžø
+N
+java:S1117X"8Rename "size" which hides the field declared at line 16.(„Ôžø

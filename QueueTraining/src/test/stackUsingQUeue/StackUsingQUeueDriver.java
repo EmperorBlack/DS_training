@@ -42,6 +42,12 @@ public class StackUsingQUeueDriver {
         queue.add(3);
         queue.add(4);
 
+        MyStack myStack = new MyStack();
+        myStack.push(1);
+        myStack.push(2);
+        myStack.push(3);
+        myStack.push(4);
+
 
 
 

@@ -436,6 +436,31 @@ public Node reverseKThGroup(int k){
     public void flaternLinkedList(){
 
     }
+    public void removeNthFromEnd(Node head, int n) {
+
+        Node fast = head;
+        Node slow = head;
+        Node prev = null;
+        for (int i = 0; i < n; i++) {
+            fast = fast.next;
+        }
+
+        while (fast != null){
+            fast=fast.next;
+            prev = slow;
+            slow = slow.next;
+        }
+
+        prev.next = slow.next;
+    }
+
+    public void deleteNode(Node node) {
+
+        Node current = node;
+        Node next = current.next;
+        current.data = next.data;
+        current.next = next.next;
+    }
 }
 
     public class MyLinkedListDriver {
