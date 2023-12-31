@@ -1,5 +1,7 @@
 package queueTraining;
 
+import java.util.ArrayDeque;
+
 class MyQueue{
     int capacity;
     int rear;
@@ -47,6 +49,15 @@ class MyQueue{
 public class QueueTrainning {
 
     public static void main(String[] args) {
+
+        java.util.Deque<Integer> qqq = new ArrayDeque<>();
+        qqq.offer(1);
+        qqq.offer(2);
+        qqq.offer(3);qqq.offer(4);
+        qqq.poll();
+
+
+
 
         MyQueue queue = new MyQueue(4);
         queue.enqueue(1);

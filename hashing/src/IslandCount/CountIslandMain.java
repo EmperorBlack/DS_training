@@ -14,6 +14,8 @@ public class CountIslandMain {
     public static void main(String[] args) {
         Set<List<Integer>> set = new HashSet<>();
 
+//        LinkedList<Pair>
+
 //        set.add(Arrays.asList(0,1,2,3));
 //        set.add(Arrays.asList(0,1,2,3));
 //        List arrayList = new ArrayList<>();

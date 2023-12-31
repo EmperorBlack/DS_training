@@ -24,15 +24,15 @@ public class NextPermutation {
             }else {
                 //        sort from k+1 to array.length -1 or reverse them
 
-                for (int j = nums.length-1; j > k; j--) {
-                    if (nums[j] > nums[k]) {
+//                for (int j = nums.length-1; j > k; j--) {
+//                    if (nums[j] > nums[k]) {
                         int temp = nums[k];
-                        nums[k] = nums[j];
-                        nums[j] = temp;
-                        break;
-                    }
+                        nums[k] = nums[k+1];
+                        nums[k+1] = temp;
+//                        break;
+//                    }
 
-                }
+//                }
                 reverseArray(nums, k + 1, nums.length - 1);
             }
 

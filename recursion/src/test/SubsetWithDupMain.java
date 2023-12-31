@@ -23,7 +23,7 @@ public class SubsetWithDupMain {
         result.add(new ArrayList<>(curr));
         for (int i = start; i < nums.length; i++) {
 
-            if(i!=start && nums[i] == nums[i+1])
+            if(i!=start && nums[i] == nums[i-1])
                 continue;
             curr.add(nums[i]);
             findSubsets(nums,i+1 ,result,curr);

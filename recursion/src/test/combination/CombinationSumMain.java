@@ -9,17 +9,17 @@ public class CombinationSumMain {
 
 //        System.out.println("ab".substring(0,3));
 
-//        combinationSum(new int[]{2,3,6,7},7);
-        combinationSum(new int[]{10,1,2,7,6,1,5},8);
+        combinationSum(new int[]{2,3,6,7},7);
+//        combinationSum(new int[]{10,1,2,7,6,1,5},8);
 
     }
     public static List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> result = new ArrayList<>();
         List<Integer> temp = new ArrayList<>();
 //        findCombination(0,target,result,temp,candidates);
-//        findCombinations(0,candidates,target,result,temp);
-        Arrays.sort(candidates);
-        findCombinationsDuplicate(0,candidates,target,result,temp);
+        findCombinations(0,candidates,target,result,temp);
+//        Arrays.sort(candidates);
+//        findCombinationsDuplicate(0,candidates,target,result,temp);
         System.out.println(result);
         return result;
     }

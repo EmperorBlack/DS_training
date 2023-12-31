@@ -3,7 +3,7 @@ public class MyPow {
     public static void main(String args[]){
         System.out.println(myPow(-1.00000,-2147483648));
     }
-    public static double myPow(double x, long n) {
+    public static double myPow(double x, int n) {
         // return Math.pow(x,n);
         if(x == 1d ){
             return 1d;
@@ -16,8 +16,7 @@ public class MyPow {
         }
         double result = 1d;
 //        x = Math.abs(x);
-//        int powNum= Math.abs(n);
-        long powNum= n * -1;
+        int powNum= Math.abs(n);
         for(int i=1;i<powNum;i=i+2){
             result = result * (x*x);
         }

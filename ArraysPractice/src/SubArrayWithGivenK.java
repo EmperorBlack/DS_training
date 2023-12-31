@@ -5,7 +5,7 @@ public class SubArrayWithGivenK {
 
     public static void main(String args[]){
 
-        System.out.println(getSubArrCount(new int[]{ 1, 2, 2, 3},0));
+//        System.out.println(getSubArrCount(new int[]{ 1, 2, 2, 3},0));
 
         System.out.println(getSubArrCount(new int[]{2,3,3,-1,0,7,-2,5},5));
 

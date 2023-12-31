@@ -17,7 +17,8 @@ public class TreeDriverClass {
     static int idx = -1;
 
     public static void main(String[] args) {
-        Node root = buildTreePre(new int[]{1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1});
+//        Node root = buildTreePre(new int[]{1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1});
+        Node root = buildTreePre(new int[]{1,3,5,6,-1,-1,-1,-1,2,-1,9,7,-1,-1,-1});
 //        idx = -1;
 //        Node subtree = buildTreePre(new int[]{2,4,-1,-1,5,-1,-1});
 //        System.out.println(isSubtree(root,subtree));
@@ -40,13 +41,13 @@ public class TreeDriverClass {
 //        topViewOfTree(root,0);
 //        verticalViewOfTree(root);
 //        verticalViewOfTreeLettcode(root);
-//        widthOfBinaryTree(root);
+        widthOfBinaryTree(root);
 //        System.out.println(maxDepth(root));
 //        System.out.println(isBalanced(root));
 //        System.out.println(lowestCommonAncestor(root,new Node(4),new Node(4)).val);
 //        findPathToNode(root,5);
 //        maxPathSum(root);
-        flatten(root);
+//        flatten(root);
     }
 
 
@@ -188,6 +189,49 @@ public class TreeDriverClass {
                 }
                 levelList.add(queue.poll().val);
             }
+            result.add(levelList);
+        }
+        return result;
+    }
+
+    public static List<List<Integer>> zigzagLevelOrder(Node root){
+
+        Deque<Node> queue = new ArrayDeque<>();
+        List<List<Integer>> result = new ArrayList<>();
+        if(root == null){
+            return result;
+        }
+        queue.offer(root);
+        int level = 0;
+        while(!queue.isEmpty()){
+
+            int size = queue.size();
+            List<Integer> levelList = new ArrayList<>();
+            for (int i = 0; i < size; i++) {
+
+                if((level % 2) ==0){
+                    Node temp = queue.poll();
+                    if(temp.left != null){
+                        queue.offer(temp.left);
+                    }
+                    if(temp.right != null){
+                        queue.offer(temp.right);
+                    }
+                    levelList.add(temp.val);
+                }else{
+
+                    Node temp = queue.removeLast();
+                    if(temp.right != null){
+                        queue.offerFirst(temp.right);
+                    }
+                    if(temp.left != null){
+                        queue.offerFirst(temp.left);
+                    }
+                    levelList.add(temp.val);
+                }
+
+            }
+            level++;
             result.add(levelList);
         }
         return result;
@@ -378,29 +422,43 @@ public class TreeDriverClass {
         topViewOfTree(root.right,index-1);
     }
 
-    public static void bottomViewOfTree(Node root){
-        if(root == null){
-            return;
-        }
-        Queue<Node> queue = new ArrayDeque<>();
-        HashMap<Integer,Integer> map = new HashMap<>();
-        queue.add(root);
-        while(!queue.isEmpty()){
-            int len = queue.size();
-            for (int i = 0; i < len; i++) {
-                Node temp = queue.poll();
-                if(i==0){
-                    System.out.println(temp.val);
-                }
-                if(temp.right != null){
-                    queue.offer(temp.right);
-                }
-                if(temp.left != null){
-                    queue.offer(temp.left);
-                }
-            }
-        }
-    }
+//    public ArrayList <Integer> bottomView(Node root)
+//    {
+//
+//        Map<Integer,Integer> map = new TreeMap<>();
+//        ArrayList<Integer> result = new ArrayList<>();
+//        if(root == null){
+//            return null;
+//        }
+//        Queue<Node> queue = new ArrayDeque<>();
+//        root.hd = 0;
+//        queue.add(root);
+//        while(!queue.isEmpty()){
+//            int len = queue.size();
+//            for (int i = 0; i < len; i++) {
+//                Node temp = queue.poll();
+//                map.put(temp.hd,temp.data);
+//                if(temp.left != null){
+//                    temp.left.hd = temp.hd-1;
+//                    queue.offer(temp.left);
+//                }
+//                if(temp.right != null){
+//                    temp.right.hd=temp.hd+1;
+//                    queue.offer(temp.right);
+//                }
+//
+//            }
+//        }
+//
+//        for (Map.Entry<Integer,Integer> m: map.entrySet()){
+//            result.add(m.getValue());
+//        }
+//
+//        //traversing the map elements and storing nodes in the list.
+//
+//        return result;
+//        // Code here
+//    }
 
     public static void verticalViewOfTree(Node root){
         Map<Integer,Queue<Integer>> result = new TreeMap<>();
@@ -486,11 +544,11 @@ public class TreeDriverClass {
 
     static int maxWidth = 0;
     public static int widthOfBinaryTree(Node root){
-//        Map<Integer,Long> map = new HashMap<>();
-//        calculateMaxWidthUsingRecursion(root,0l,0,map);
-//        System.out.println(maxWidth);
-//        return maxWidth;
-        return calculateMaxWidthUsinglevelOrder(root);
+        Map<Integer,Long> map = new HashMap<>();
+        calculateMaxWidthUsingRecursion(root,0l,0,map);
+        System.out.println(maxWidth);
+        return maxWidth;
+//        return calculateMaxWidthUsinglevelOrder(root);
     }
 
     public static void calculateMaxWidthUsingRecursion(Node root,Long index, int level,Map<Integer,Long> map){
@@ -498,7 +556,7 @@ public class TreeDriverClass {
             return;
         }
 
-        if(!map.containsKey(level) || index < map.get(level)){
+        if(!map.containsKey(level) ){
             map.put(level,index);
         }
 

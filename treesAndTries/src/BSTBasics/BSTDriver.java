@@ -1,10 +1,13 @@
 package BSTBasics;
 
+import com.sun.source.tree.Tree;
+
 import java.util.*;
 
 public class BSTDriver {
 
     public static void main(String[] args) {
+
 
 
 
@@ -226,6 +229,43 @@ public class BSTDriver {
 //        }else{
 //            successorOfTreeNode(root.right,val);
 //        }
+    }
+
+
+    static TreeNode pre = null;
+
+
+
+    public static void findPreSus(TreeNode root, int key) {
+        if(root == null){
+            return;
+        }
+        if(root.val == key){
+            if(root.left!= null){
+                TreeNode temp = root.left;
+                while (temp.right != null) {
+                    temp = temp.right;
+                }
+                pre = temp;
+            }
+
+            if(root.right != null){
+                 TreeNode temp = root.right;
+                while (temp.left != null) {
+                    temp = temp.left;
+                }
+                sus = temp;
+            }
+
+            return;
+
+        } else if (root.val > key) {
+            sus = root;
+            findPreSus(root.left,key);
+        }else {
+            pre = root;
+            findPreSus(root.right,key);
+        }
     }
 
     int count = 0;

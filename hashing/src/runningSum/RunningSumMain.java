@@ -1,4 +1,8 @@
 package runningSum;
+
+import java.util.ArrayList;
+import java.util.List;
+
 class Solution {
     public int[] runningSum(int[] nums) {
 
@@ -15,6 +19,16 @@ class Solution {
 }
 public class RunningSumMain {
     public static void main(String[] args) {
+
+        List<Integer> l1 = new ArrayList<>();
+        l1.add(2);
+        l1.add(1);
+
+        List<Integer> l2 = new ArrayList<>();
+        l2.add(1);
+        l2.add(2);
+
+        System.out.println(l1.equals(l2));
 
     }
 }

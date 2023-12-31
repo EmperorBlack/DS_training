@@ -7,8 +7,8 @@ import java.util.List;
 
 public class SubsetSumDriver {
     public static void main(String[] args) {
-        System.out.println(subsetsSum(new int[]{3,1,2
-        }));
+//        System.out.println(subsetsSum(new int[]{3,1,2
+//        }));
         System.out.println(subsetsSumStriver(new int[]{3,1,2
         }));
 
